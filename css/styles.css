@@ -126,6 +126,7 @@ nav {
 main {
     display: flex;
     justify-content: center;
+    align-items: stretch;
     gap: 4em;
 }
 .breadcrumbs {
@@ -247,9 +248,12 @@ aside {
 ****************************************************************
 ***************************************************************/                         
 .advertisements {
+    position: sticky;
+    top: 100px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1.5vh;
 }
 .advertisements h4 {
